@@ -8,6 +8,13 @@ pragma circom 2.1.4;
 template Pow() {
    
    // Your Code here.. 
+   signal input a[2];
+   signal output c;
+
+   var res;
+   res = a[0]**a[1];
+   c <-- res;
+
 }
 
 component main = Pow();
