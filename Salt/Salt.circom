@@ -17,6 +17,7 @@ pragma circom 2.1.4;
 
 template Salt() {
     // Your code here..
+    
 }
 
 component main  = Salt();
