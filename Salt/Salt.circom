@@ -29,7 +29,7 @@ template Salt() {
 
     out <== mimcsponge.outs[0];
 }
-
+ 
 component main  = Salt();
 // By default all inputs are private in circom. We will not define any input as public 
 // because we want them to be a secret , at least in this case. 
