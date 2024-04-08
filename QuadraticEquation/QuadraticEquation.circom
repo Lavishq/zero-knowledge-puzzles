@@ -21,6 +21,9 @@ template QuadraticEquation() {
     signal add_first <== ax_sq+bx;
     signal add_final <== add_first+c;
 
+    // component is_eq = IsEqual()(add_final, res); // did not work anon func using touples, maybe it only works via arrays
+    // out <== is_eq.out;
+    
     component is_eq = IsEqual();
     add_final ==> is_eq.in[0];
     res ==> is_eq.in[1];
