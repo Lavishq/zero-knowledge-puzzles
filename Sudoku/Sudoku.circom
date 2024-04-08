@@ -73,6 +73,7 @@ template Sudoku () {
     3 === row4[3].out + row4[2].out + row4[1].out + row4[0].out; 
 
     // Write your solution from here.. Good Luck!
+    // im too scared to solve soduku and sojuku, maybe i will read zk-book and zk content of zkhack b4
     
     
    
